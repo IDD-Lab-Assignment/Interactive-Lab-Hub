@@ -2,6 +2,10 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Jonathan Tan: Implemented electronic hardware components via soldering and managed programming logic for lighting integration.
+
+Sylvia Ding: Hardware Prototyping, LED testing, Pygame music mixer to implement music playing and changing feature, Neopixel library and connect with rotary encoder to implement light pixel change.
+
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
 
@@ -174,11 +178,82 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
-**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+**Control 1**
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+Distance sensor for obstacle detection on crutch for blind people. 
 
-**\*\*\*Pick one of these designs to prototype.\*\*\***
+Questions raised from this idea:
+
+1. How to protect the sensor itself from being destroyed when it’s exposed?
+2. What is a good threshold of determining whether to feedback when the distance sensor detects some obstacles?
+
+I might need to experiment with different physical forms of crutches to find the best way of prototyping it with the sensor embedded. 
+
+<picture>
+  <img alt="Control1" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Control1.jpg">
+</picture>
+
+**Control 2**
+
+An interactive art installation that takes rotary input
+
+Questions raised from this idea:
+
+1. How to design for the mechanical movement of all the small pieces?
+2. How to add more variety of movement with the rotary encoder?
+
+For this one, I may need to construct the physical pieces in different forms and try if I can incorporate other sensors. 
+
+<picture>
+  <img alt="Control2" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Control2.jpg">
+</picture>
+
+**Control 3**
+
+Interactive lamps that send color codes/signals 
+
+Questions raised from this idea:
+
+1. Is capacitive sensor the best choice?
+2. How to best design the physical interface to make the product more portable and accessible?
+3. How to implement so that it enables communication between 2 lamps?
+
+I might need to experiment with materials like wood and paper to make the physical stand and the lightning part. 
+
+<picture>
+  <img alt="Control3" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Control3.jpg">
+</picture>
+
+**Control 4**
+
+To the moon (interactive art installation)
+
+Questions raised from this idea:
+
+1. Is distance sensor the best choice?
+2. How to embed the sensor so that it’s not visible to users but also works efficiently?
+3. Can there be any other form of interaction
+
+I want to laser cut cardboard to experiment and later use wood for the installation. I also want to experiment with capacitive sensors and programming LED bars. 
+
+<picture>
+  <img alt="Control4" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Control4.jpg">
+</picture>
+
+**Control 5**
+
+Questions raised from this idea:
+
+1. How should the display look like?
+2. How to design the game to be more engaging?
+
+I need to physically prototype a physical stand for the joystick to understand better of the control part.
+
+<picture>
+  <img alt="Control5" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Control5.jpg">
+</picture>
+
+**For this lab, I planned to pick idea #4 and make an interactive art project focus more on self expression.**
 
 
 ### Part D
@@ -221,13 +296,45 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+To design for my physical displays and control/knobs. I will have to explain my design first. For this lab, I decided to expand the scope a bit and design an interactive art installation that works as the simple illustration below. More details will be explained when I move forward to part 2.
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+<picture>
+  <img alt="Illustration" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/illustration.jpg">
+</picture>
+
+I plan to design on the theme of moon, which is always used to represent spiritual and inner feelings of people. I used wood and laser cut a circle, colored the cirle, and I plan to use capacitive sensor and LED light strip to add interaction to my installation's physical interface. 
+
+Therefore, the overall physical interface that users interact with will be the wood canvas, but regarding the Pi itself, the sketches are shown below. 
+Some things that raise as questions include: 1) Is it necessary to show the state of pi if my actual physical interface is the wood canvas? 2) Do I need separate physical interface for diffent controls that I plan to use? For example, I only want to use the camera as a speaker, would it be better to design something so I can better physically position the camera?
+
+<picture>
+  <img alt="Sketches" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/display.jpg">
+</picture>
+
+For now, I only made the physical prototype for the display part. Whether to make a cardboard or any other physical interface for just the controls/knobs will be a part 2 questions for now. 
+
+<picture>
+  <img alt="Laser Cut" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/LaserCut.JPG">
+</picture>
+
+<picture>
+  <img alt="Frame" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Frame.JPG">
+</picture>
+
+<picture>
+  <img alt="Moon Display" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/moon_disp.JPG">
+</picture>
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
+It will be a art piece in a certain size and shape. For now, due to the length of the jumper wires, users can only control and interact from a certain distance. However, I am looking into ways of fixing the distance constraint. 
+
 Build a cardbord prototype of your design.
+
+
+<picture>
+  <img alt="Prototype" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Prototype.png">
+</picture>
 
 **\*\*\*Document your rough prototype.\*\*\***
 
@@ -271,7 +378,52 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
+
+**Prototype, Testing & the Installation Process**
+
+<picture>
+  <img alt="Install1" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Install1.JPG">
+</picture>
+
+<picture>
+  <img alt="Install2" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Install2.JPG">
+</picture>
+
+<picture>
+  <img alt="Install6" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Install6.JPG">
+</picture>
+
+
+https://user-images.githubusercontent.com/38329866/196346616-769c45e3-fbe4-4e03-bd54-1f8fc03b8ef1.MOV
+
+
+
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+
+It look like a wood canvas with paint and texture. Picture below:
+
+
+<picture>
+  <img alt="Look" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/outside.jpg">
+</picture>
+
+
 * "Works like": shows what the device can do
+
+The device works as both a music player and also an interactive light. 
+
+**Final Result: This video demonstrates user cases (play with music on)**
+
+
+https://user-images.githubusercontent.com/38329866/196345784-a9966441-6401-44b0-a2ea-756d41e3d363.mov
+
+
+
 * "Acts like": shows how a person would interact with the device
+
+The capacitive sensor can control music (jump to the next song, previous song, or plays the song in sequence) Code explanation and capacitive sensor illustration below:
+
+<picture>
+  <img alt="ControlExplain" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%204/Controls_Explain.png">
+</picture>
 
