@@ -1,0 +1,1 @@
+flite -voice slt -t  "Hi, I'm your color assistant.I could help you to learn different color" 

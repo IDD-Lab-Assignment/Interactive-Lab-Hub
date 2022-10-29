@@ -1,0 +1,1 @@
+flite -voice slt -t  "Please wait for a moment and put your finger on the sensor." 
