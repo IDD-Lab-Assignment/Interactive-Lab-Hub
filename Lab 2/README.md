@@ -187,6 +187,10 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
 
+<picture>
+  <img alt="Sketch1" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%202/Piclock1.jpeg">
+</picture>
+
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 
@@ -202,15 +206,31 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+**The file name of my code is clock1.py**
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+https://user-images.githubusercontent.com/38329866/189795473-a18af0b7-c98c-4e6a-bf92-105fc3ad140c.mp4
+
 ## Part G. 
+
+
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+**Another potential idea for part 2**
+
+<picture>
+  <img alt="Sketch2" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%202/Piclock2.jpeg">
+</picture>
+
+**Current idea further interaction**
+
+<picture>
+  <img alt="Further" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%202/Further.jpeg">
+</picture>
 
 # Prep for Part 2
 
@@ -218,6 +238,10 @@ After that, Git will ask you to login to your GitHub account to push the updates
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+Comment #1: I like the intent and value that a device with this functionality would provide. I think the scale we are working with is a bit of a problem for photos. It will be hard to do a collage more than one photo displayed at once. Also, I don't see the connection to time in the Mars communication idea.
+
+Comment #2: This idea sounds great! I'd really like if you could add a text/subtitle to the interface so that it could help the Alzheimer patient to remember the context of the picture. Looking forward to see what kind of button or sensor you'll add to it.
 
 # Lab 2 Part 2
 
@@ -229,4 +253,29 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+Collaborated with: Jonathan Tan (jmt362@cornell.edu)
+
+Sylvia: Reiterated the design from last week's concept and feedback, brainstormed again, and redefined features and interactions. Created a flow diagram to explain better the new concept and interactions involved (see below). Lastly, Sylvia was responsible for contributing the backbone of the code from last week, creating the storyline, and shooting and editing the video. 
+
+Jonathan: Integrated image gallery slideshow capabilities from part one into Sylvia’s original source.  Implemented CV2 library to utilize external web camera, and developed logic for button presses and menu options.  In the next iteration, A+B button hold can record a 5 second video instead, and the gallery could evolve to hold a gallery of daily memories for those suffering from early stage memory loss.  
+
+We were hoping to utilize the PiTFT display for all UI/UX including the camera live view, however we ran into severe hardware limitations.  We also trialed the use of a rotary encoder to scroll between “memories”, but GPIO pins to 3v3 were blocked by the PiTFT screen.  In the next iteration we could resolve this by exploring the Stemma QT connector located below the PiTFT.
+
+<picture>
+  <img alt="Flow Diagram" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%202/Lifeclock%20concept.png">
+</picture>
+
+
+**Final Video (Play with sound)**
+
+Sources credited: 
+
+https://www.youtube.com/watch?v=of8IUIxJKkI
+
+https://www.youtube.com/watch?v=Rbr-Bmz5nWg
+
+Background music of the video: The Promise of the World by Yumi Kimura
+
+
+https://user-images.githubusercontent.com/38329866/191111225-2d93bef1-485b-4b5b-a116-27f87decdb12.mp4
 
