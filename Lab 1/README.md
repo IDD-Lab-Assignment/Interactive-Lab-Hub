@@ -11,9 +11,8 @@ _Make sure you read all the instructions and understand the whole of the laborat
 ## Part A. Plan 
 
 **Storyboard 1**
-
 <picture>
-  <img alt="Storyboard 1" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard1.jpeg">
+  <img alt="Storyboard 1" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard1.jpeg">
 </picture>
 
 _Setting:_ The interaction is happening at the user's house. 
@@ -30,7 +29,7 @@ _Feedback:_ Make sure the device can show multiple tasks at the same time. Also,
 **Storyboard 2**
 
 <picture>
-  <img alt="Storyboard 2" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/storyboard2.jpeg">
+  <img alt="Storyboard 2" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/storyboard2.jpeg">
 </picture>
 
 _Setting:_ The interaction is happening at the user's house
@@ -46,7 +45,7 @@ Zixiong: Great idea! If it is hard for distance detector to differentiate differ
 **Storyboard 3**
 
 <picture>
-  <img alt="Storyboard 3" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard3.jpeg">
+  <img alt="Storyboard 3" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard3.jpeg">
 </picture>
 
 _Setting:_ The interaction can happen at anywhere
@@ -63,7 +62,7 @@ _Feedback:_ Love how you care about minorities like children with autism. I real
 **Storyboard 4**
 
 <picture>
-  <img alt="Storyboard 4" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard4.jpeg">
+  <img alt="Storyboard 4" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard4.jpeg">
 </picture>
 
 _Setting:_ The interaction is happening at the user's house.
@@ -80,7 +79,7 @@ _Feedback:_ Visualizing sound is not a new thing but I never thought about using
 **Storyboard 5**
 
 <picture>
-  <img alt="Storyboard 5" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard5.jpeg">
+  <img alt="Storyboard 5" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard5.jpeg">
 </picture>
 
 _Setting:_ The interaction is happening outside, on the road.
@@ -97,7 +96,7 @@ _Feedback:_ This is one of my favorite idea! Usually the disabled has to use his
 **Storyboard 6**
 
 <picture>
-  <img alt="Storyboard 6" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard6.jpeg">
+  <img alt="Storyboard 6" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard6.jpeg">
 </picture>
 
 _Setting:_ The interaction can happen anywhere. 
@@ -114,7 +113,7 @@ _Feedback:_ This is a lovely idea. I think the device will use a pressure sensor
 **Storyboard 7**
 
 <picture>
-  <img alt="Storyboard 7" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard7.jpeg">
+  <img alt="Storyboard 7" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard7.jpeg">
 </picture>
 
 _Setting:_ The interaction is happening at the user's house. 
@@ -185,7 +184,7 @@ Think about the setting of the device: is the environment a place where the devi
 **Device 1**
 
 <picture>
-  <img alt="Device 1" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/ecec507dd7a63962c23fddf694cd38ba2b5e7fbc/Lab%201/Device1.jpg">
+  <img alt="Device 1" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/ecec507dd7a63962c23fddf694cd38ba2b5e7fbc/Lab%201/Device1.jpg">
 </picture>
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
@@ -195,7 +194,7 @@ It is concerned here that the mobile display might be too big for a wearable dev
 **Device 2**
 
 <picture>
-  <img alt="Device 2" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/ecec507dd7a63962c23fddf694cd38ba2b5e7fbc/Lab%201/Device2.jpg">
+  <img alt="Device 2" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/ecec507dd7a63962c23fddf694cd38ba2b5e7fbc/Lab%201/Device2.jpg">
 </picture>
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
@@ -205,7 +204,7 @@ If multiple mobile device could work simultaneously, it could be a great design 
 **Device 3**
 
 <picture>
-  <img alt="Device 3" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/ecec507dd7a63962c23fddf694cd38ba2b5e7fbc/Lab%201/Device3.jpg">
+  <img alt="Device 3" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/ecec507dd7a63962c23fddf694cd38ba2b5e7fbc/Lab%201/Device3.jpg">
 </picture>
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
@@ -291,7 +290,7 @@ For Part 2, I incorporated feedback and made some revision to storyboards. For s
 **Storyboard 1**
 
 <picture>
-  <img alt="Revised Storyboard 1" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard1_new.jpeg">
+  <img alt="Revised Storyboard 1" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard1_new.jpeg">
 </picture>
 
 _Improvement:_ Sounds feedback added to remind patients to follow their routine. 
@@ -299,7 +298,7 @@ _Improvement:_ Sounds feedback added to remind patients to follow their routine.
 **Storyboard 2**
 
 <picture>
-  <img alt="Revised Storyboard 2" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard2_new.jpeg">
+  <img alt="Revised Storyboard 2" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard2_new.jpeg">
 </picture>
 
 _Improvement:_ Light signal to be made twinkle to make the signal more obvious. 
@@ -307,7 +306,7 @@ _Improvement:_ Light signal to be made twinkle to make the signal more obvious.
 **Storyboard 3**
 
 <picture>
-  <img alt="Revised Storyboard 3" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard3_new.jpeg">
+  <img alt="Revised Storyboard 3" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard3_new.jpeg">
 </picture>
 
 _Improvement:_ Sounds feedback with words and tone to communicate with Autism kids' parents. 
@@ -319,7 +318,7 @@ _Improvement:_ Unchanged.
 **Storyboard 5**
 
 <picture>
-  <img alt="Revised Storyboard 5" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard5_new.jpeg">
+  <img alt="Revised Storyboard 5" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard5_new.jpeg">
 </picture>
 
 _Improvement:_ Sound feedback to ask passengers for help. The covers the pain point that light may not be obvious when it's bright ouside.  
@@ -327,7 +326,7 @@ _Improvement:_ Sound feedback to ask passengers for help. The covers the pain po
 **Storyboard 6**
 
 <picture>
-  <img alt="Revised Storyboard 6" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard6_new.jpeg">
+  <img alt="Revised Storyboard 6" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%201/Storyboard6_new.jpeg">
 </picture>
 
 _Improvement:_ Sound feedback to along with light signal to let people know force exerted is too much.  
