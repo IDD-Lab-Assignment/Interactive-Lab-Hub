@@ -102,25 +102,26 @@ pi@ixe00:~/openCV-examples/flow-detection $ python optical_flow.py 0 window
 pi@ixe00:~$ cd ~/openCV-examples/object-detection
 pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
-<img width="647" alt="Screen Shot 2022-10-20 at 8 37 25 AM" src="https://user-images.githubusercontent.com/6706384/197426642-f0192c46-9d36-4747-a07a-2f0864c63532.png">
 
 ##### Countour Detection
 Use Case: Topological and geographic survey of aerial imagery.
 
-<img width="644" alt="Screen Shot 2022-10-20 at 8 41 46 AM" src="https://user-images.githubusercontent.com/6706384/197426674-ecfa1004-70a6-4a3f-b6c1-166e9bbe01f8.png">
+<img alt="Face detection" src="[https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Face.png](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/contour_test.png)">
 
 ##### Face Detection
 Use Case: Customized reactions depending on the user face being detected.
 
-<img alt="Optical Flow" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Optical_flow.png">
+<img alt="Optical Flow" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Face.png">
 
 ##### Flow Detection
 Use Case: Short-distance bird flight tracking in local micro-ecosystem.  (Tree to bush flight back and forth behavior).
 
-<img width="899" alt="Screen Shot 2022-10-20 at 9 07 11 AM" src="https://user-images.githubusercontent.com/6706384/197426692-cc62da05-c98b-4237-b5d3-4ef66a44e0c6.png">
+<img width="899" alt="Optical Flow" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Object.png](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Optical_flow.png)">
 
 ##### Object Detection
 Use Case: Tracking baton pass, tracking football toss etc. in sports videography.
+
+<img width="899" alt="Object" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Object.png">
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
