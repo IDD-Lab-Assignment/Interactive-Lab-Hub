@@ -106,7 +106,7 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ##### Countour Detection
 Use Case: Topological and geographic survey of aerial imagery.
 
-<img alt="Face detection" src="[https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Face.png](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/contour_test.png)">
+<img alt="Face detection" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/contour_test.png">
 
 ##### Face Detection
 Use Case: Customized reactions depending on the user face being detected.
@@ -116,7 +116,7 @@ Use Case: Customized reactions depending on the user face being detected.
 ##### Flow Detection
 Use Case: Short-distance bird flight tracking in local micro-ecosystem.  (Tree to bush flight back and forth behavior).
 
-<img width="899" alt="Optical Flow" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Object.png](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Optical_flow.png)">
+<img width="899" alt="Optical Flow" src="https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Optical_flow.png">
 
 ##### Object Detection
 Use Case: Tracking baton pass, tracking football toss etc. in sports videography.
