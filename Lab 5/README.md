@@ -2,6 +2,9 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Sylvia Ding - Developed Context, Presenance and Behavior graph, ideated designs for bird feeding observer.
+
+Jonathan Tan - Wrote code, developed logic for CV bird detection and camera shutter execution.  Modified code for human face prototype.
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
 Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
@@ -99,6 +102,25 @@ pi@ixe00:~/openCV-examples/flow-detection $ python optical_flow.py 0 window
 pi@ixe00:~$ cd ~/openCV-examples/object-detection
 pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
+<img width="647" alt="Screen Shot 2022-10-20 at 8 37 25 AM" src="https://user-images.githubusercontent.com/6706384/197426642-f0192c46-9d36-4747-a07a-2f0864c63532.png">
+
+##### Countour Detection
+Use Case: Topological and geographic survey of aerial imagery.
+
+<img width="644" alt="Screen Shot 2022-10-20 at 8 41 46 AM" src="https://user-images.githubusercontent.com/6706384/197426674-ecfa1004-70a6-4a3f-b6c1-166e9bbe01f8.png">
+
+##### Face Detection
+Use Case: Customized reactions depending on the user face being detected.
+
+<img alt="Optical Flow" src="https://github.com/Sylv1011/Interactive-Lab-Hub/blob/Fall2022/Lab%205/Optical_flow.png">
+
+##### Flow Detection
+Use Case: Short-distance bird flight tracking in local micro-ecosystem.  (Tree to bush flight back and forth behavior).
+
+<img width="899" alt="Screen Shot 2022-10-20 at 9 07 11 AM" src="https://user-images.githubusercontent.com/6706384/197426692-cc62da05-c98b-4237-b5d3-4ef66a44e0c6.png">
+
+##### Object Detection
+Use Case: Tracking baton pass, tracking football toss etc. in sports videography.
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
@@ -139,6 +161,10 @@ For technical references:
 
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
+
+https://github.com/JMortonTan/Interactive-Lab-Hub/blob/Fall2022/Lab%205/DamageTest.py
+
+This script determins if the volume over a threshold has exposed the user to damage inducing levels.  If not, then the python script prints an "all clear" message.
 
 ### (Optional Reading) Introducing Additional Concepts
 The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pi Image, so you can move onto part B.** However, you are welcome to try it on your personal computer. If this functionality is desirable for your lab or final project, we can help you get a different image running the last OS and version of python to make the following code work.
@@ -227,7 +253,13 @@ This might take a while to get fully installed. After installation, connect your
 * Try out different interaction outputs and inputs.
 * Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
 
+![Screen Shot 2022-10-24 at 10 48 58 PM](https://user-images.githubusercontent.com/6706384/197670616-a5b7ee5c-8acf-46c3-8910-e77c266d9378.png)
+
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+
+This interaction is an automatic bird photographer that hopes to produce high-quality bird footage or photography by utilizing the microphone cv abilities of a lesser camera to detect and label bird activity on a feeder.
+
+
 
 ### Part C
 ### Test the interaction prototype
@@ -235,15 +267,38 @@ This might take a while to get fully installed. After installation, connect your
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The prototype is supposed to detect when birds arrive into the field of view, and execute a call to take a photograph with the DSLR camera.
+
+2. When does it fail?
+
+It fails often as the frames per second capture performance of the pi is not quick enough.
+
+3. When it fails, why does it fail?
+
+There are hardware limitations of the pi's computer vision performance, which make the reaction time of the prototype very difficult to configure.
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+Another scenario that could cause problems is one where a squirrel arrives instead.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+A user of this system (photographer) will probably consider the event of other non-bird species arriving at the feeder.
+This can be mitigated by including commonly encountered non-bird species into the model and providing options to deal with them.
+
+2. How bad would they be impacted by a miss classification?
+
+Misclassification would be a labeling issue since the image would be uploaded as the label that the CV defines.
+
+3. How could change your interactive system to address this?
+
+This vulnerability in the system can only be addressed by either developing stronger models (more costly to the pi) or allowing the user to self rectify utilizing their own knowledge.
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+Optimizations that can me made are to detect non-bird species and either create an inclusive classification system, or utilize a flash or mechanism to scare/train them away, if they are undesired.
 
 ### Part D
 ### Characterize your own Observant system
@@ -251,17 +306,60 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+
+This can be used for surveying, bird watching, and measuring the strength of an ecosystem.
+
 * What is a good environment for X?
+
+A good environment for this device would be anywhere that attracts or has populations of the targeted species.  The weather also has to be stable enough as to not cause too much wind noise. and support the funnctioning of the device.
+
 * What is a bad environment for X?
+
+Areas of low target population, extreme climate, and areas prone to valendelism.
+
 * When will X break?
+
+The device would break if environmental factors cause the microphone to believe in legitimate activity when there isn't, activiating CV computing power and running the device out of power.
+
 * When it breaks how will X break?
+
+It will sap the device from stored energy, and also take photographs of mislabeled critters.
+
 * What are other properties/behaviors of X?
+
+X should be enclosed in a structure that can help it survive the outdoor elements.  It must also have an active internet connection.
+It must also be camouflaged and not look unnatural in the photographs that it takes. 
+
 * How does X feel?
 
-**\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+The device should feel natural, sturdy, and robust.
+
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+Diagram of interaction and device idea:
+
+![Screen Shot 2022-10-31 at 11 17 06 PM](https://user-images.githubusercontent.com/6706384/199151828-8f203d1c-b0d6-4d4c-9174-b8a9e5400464.png)
+
+
+The two-camera system sits idle and observes a stationary bird feeding/attracting box.
+Once a bird arrives into the field of view, the raspberry pi wide angle camera recognizes a bird has entered using computer vision and the trained opencv haarcascade model.
+
+This activates the DSLR to attain a focus, and takes a photo once all adjustments for lighting has been made.
+
+When developing the interaction for the proposed bird photographer, we had control over neither birds nor the model training.
+
+We developed a prototype code for bird detection using the opencv haarcascade which is contained in the birdlover folder.
+
+However, since we needed to demonstrate the device and interaction in a video, we switched to human face detection, which is controllable and more reliable.
+
+
+
+https://user-images.githubusercontent.com/6706384/199163548-b7278e9a-267c-4cc5-bad8-04a11eba1ee3.mp4
+
+
+
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
