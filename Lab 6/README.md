@@ -88,6 +88,16 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. It could be used as a centralized feedback system for customers on e-commerce site. The system enables companies to get feedback on customer services altogether at a centralized location. 
+
+2. It could be used as a community support site where people can all push their thoughts and inspirations to provide support within the local community.
+
+3. It could be used as a mobile monitoring system for parents to monitor their children's social media activity to prevent cyberbullying from happening. 
+
+4. For people who are deaf and cannot talk, there could be an interactive device that translates sign language and displays the words to the screen. 
+
+5. The system could be used as an communication tool for children with autism. For example, someone with autism can use button/gesture to communicate and the system will display message on the screen. 
+
 ### Part C
 ### Streaming a Sensor
 
