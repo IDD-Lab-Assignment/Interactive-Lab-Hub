@@ -167,7 +167,7 @@ The design would be a centralized package tracking system. It senses the package
 
 ![Sketch of the system](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/Sketch.jpg)
 
-**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect? 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
