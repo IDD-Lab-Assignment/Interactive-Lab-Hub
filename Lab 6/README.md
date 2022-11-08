@@ -133,6 +133,7 @@ I saw that I posted a message under the topic on MQTT.
 
 ![MQTT4](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/PartC_Prox2.png)
 
+We picked the proximity sensor to implement the data and streamed with it. 
 
 ### Part D
 ### The One True ColorNet
