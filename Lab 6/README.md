@@ -143,6 +143,8 @@ The second step to achieving our great enlightenment is to run `color.py`. We ha
  ...
  ```
 
+
+
 By running the script, wou will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one.
 
 (A message from the previous TA, Ilan: I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also, I haven't load-tested it so things might just immediately break when everyone pushes the button at once.)
@@ -152,6 +154,10 @@ You may ask "but what if I missed class?" Am I not admitted into the collective 
 Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
+
+![Color Script](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/Color.png)
+
+https://user-images.githubusercontent.com/38329866/200450263-5a597fa1-c219-4ee6-82bb-18c8143524ae.mov
 
 
 ### Part E
