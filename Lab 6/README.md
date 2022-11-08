@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Brian Mulyadi
+
 ## Prep
 
 1. Pull the new changes from the class interactive-lab-hub. (You should be familiar with this already!)
