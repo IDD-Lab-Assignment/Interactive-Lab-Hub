@@ -188,6 +188,16 @@ The design would be a centralized package tracking system. It senses the package
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect? 
 
+![Setup1](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/BuildUp.JPG)
+
+
+![Buildup2](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/Setup.JPG)
+
+
+![Setting](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/Setting.JPG)
+
+We simulated a package delivery detector to prevent overloading of package at the front door for users. Users should know what to expect as our simulated environment clearly labeld package area and boxed loading zones. 
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/OPxqKbw9U5Y/sddefault.jpg)](https://www.youtube.com/watch?v=OPxqKbw9U5Y "IDD - Package Zone")
