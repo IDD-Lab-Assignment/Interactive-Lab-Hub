@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Brian Mulyadi
+
 ## Prep
 
 1. Pull the new changes from the class interactive-lab-hub. (You should be familiar with this already!)
@@ -88,6 +90,16 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. It could be used as a centralized feedback system for customers on e-commerce site. The system enables companies to get feedback on customer services altogether at a centralized location. 
+
+2. It could be used as a community support site where people can all push their thoughts and inspirations to provide support within the local community.
+
+3. It could be used as a mobile monitoring system for parents to monitor their children's social media activity to prevent cyberbullying from happening. 
+
+4. For people who are deaf and cannot talk, there could be an interactive device that translates sign language and displays the words to the screen. 
+
+5. The system could be used as an communication tool for children with autism. For example, someone with autism can use button/gesture to communicate and the system will display message on the screen. 
+
 ### Part C
 ### Streaming a Sensor
 
@@ -109,8 +121,19 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+![MQTT1](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/PartC1.png)
+
+![MQTT2](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/PartC2.png)
+
+I saw that I posted a message under the topic on MQTT.
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+![MQTT3](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/PartC_Proximity.png)
+
+![MQTT4](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/PartC_Prox2.png)
+
+We picked the proximity sensor to implement the data and streamed with it. 
 
 ### Part D
 ### The One True ColorNet
@@ -133,6 +156,8 @@ The second step to achieving our great enlightenment is to run `color.py`. We ha
  ...
  ```
 
+
+
 By running the script, wou will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one.
 
 (A message from the previous TA, Ilan: I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also, I haven't load-tested it so things might just immediately break when everyone pushes the button at once.)
@@ -143,6 +168,10 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+![Color Script](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/Color.png)
+
+https://user-images.githubusercontent.com/38329866/200450263-5a597fa1-c219-4ee6-82bb-18c8143524ae.mov
+
 
 ### Part E
 ### Make it your own
@@ -151,11 +180,27 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+The design would be a centralized package tracking system. It senses the packages sent to the doorstep, and once the packages reach a certain amount, it will send out a notification to remind users to pick up their packages. This design can help people prevent overcrowding packages at their front door and keep track of packages delivered. 
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+![Sketch of the system](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/Sketch1.jpg)
+
+**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect? 
+
+![Setup1](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/BuildUp.JPG)
+
+
+![Buildup2](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/Setup.JPG)
+
+
+![Setting](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Lab%206/Setting.JPG)
+
+We simulated a package delivery detector to prevent overloading of package at the front door for users. Users should know what to expect as our simulated environment clearly labeld package area and boxed loading zones. 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/OPxqKbw9U5Y/sddefault.jpg)](https://www.youtube.com/watch?v=OPxqKbw9U5Y "IDD - Package Zone")
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
