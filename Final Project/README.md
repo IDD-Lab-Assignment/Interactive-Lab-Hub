@@ -85,6 +85,23 @@ https://user-images.githubusercontent.com/38329866/207978950-77acad27-3fca-419c-
 
 https://user-images.githubusercontent.com/6238480/207650370-9a129bf0-3f93-4db2-bb25-77c14347b22a.mp4
 
+- Color and physical design
+  - As we believe that it is important that our product evoke the right emotions from our users, we make sure to test different color schemes to be painted on the top layer of the device.
+
+Coco-inspired             |  Ghibli-inspired
+:-------------------------:|:-------------------------:
+![coco-inspired](https://user-images.githubusercontent.com/6238480/207645901-b0649c58-35ae-4778-8cd2-149e93501bb7.jpg)  |  ![ghibli-inspired](https://user-images.githubusercontent.com/6238480/207645885-a656a68b-b8e9-4d1c-9239-2f843db8038c.jpg)
+
+We decided to go with the Coco-inspired color scheme and move forward to assembling the different components together
+
+Our functional prototype            |  Set the equipments in place |  Painting the top layer
+:-------------------------:|:-------------------------:|:-------------------------:
+![photo1](https://user-images.githubusercontent.com/6238480/207649543-812923c3-549e-4023-99f3-8885f8d0650f.jpg)  |  ![photo2](https://user-images.githubusercontent.com/6238480/207649565-309aa49d-31ec-49bd-8455-02aceab3350b.jpg)  |  ![photo3](https://user-images.githubusercontent.com/6238480/207649572-0fcfbdbc-2afc-4cec-9078-1a71fb612acd.jpg)
+
+**Demo of Afterlife Garden**
+
+https://user-images.githubusercontent.com/6238480/207659469-239cc20d-6db7-4f57-9156-65d2ca6826ac.mp4
+
 ## Deliverables
 
 1. Project plan: Big idea, timeline, parts needed, fall-back plan.
