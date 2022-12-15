@@ -102,6 +102,28 @@ Our functional prototype            |  Set the equipments in place |  Painting t
 
 https://user-images.githubusercontent.com/6238480/207659469-239cc20d-6db7-4f57-9156-65d2ca6826ac.mp4
 
+## Open Studio Day 2022
+
+[Open Studio](https://openstudiofall2022.splashthat.com/) is an event held at Cornell Tech for presentations and demos by students, faculty, PhDs, and others in the Cornell Tech community, giving people a closeup view of the real-world products being built here.
+
+We managed to talk to many visitors who were very intrigued and inspired with the concept and execution of our product. One visitor even told us that the project reminds her of the [empty phone booth for Japan's 2011 Tsunami survivors](https://www.insider.com/japans-tsunami-survivors-call-lost-loves-phone-of-the-wind-2021-3).
+
+Our table setup            |  Happy visitors|  Explaining our device to attendees
+:-------------------------:|:-------------------------:|:-------------------------:
+![photo_2022-12-14_11-00-29](https://user-images.githubusercontent.com/6238480/207646471-835a1bd2-c23a-4965-bbfa-5f9944ea752c.jpg)  |  ![photo_2022-12-14_11-00-31](https://user-images.githubusercontent.com/6238480/207646488-4688951e-bbce-4373-9cef-2159f6ef1326.jpg)  |  ![photo_2022-12-14_11-00-32](https://user-images.githubusercontent.com/6238480/207646495-bcc42fe5-413d-4e8c-9d00-8d9198363eb8.jpg)
+
+Here is the final setup of our table for people to interact directly with our device
+
+https://user-images.githubusercontent.com/6238480/207651300-ce658c36-95da-4253-be84-d239cb4ab198.mp4
+
+We also created a highlight video to help promote the device in our setup
+
+https://user-images.githubusercontent.com/6238480/207651482-67750abc-1671-4f57-ac63-baac5275f65c.mp4
+
+## Group work distribution questionnaire
+
+On this project, we worked together on lasercutting and painting the physical interfaces. Brian was responsible for the color theme and painting of the top layer. Sylvia was responsible for doing laser cutting and paint components as well as the tree. For the technical part, Brian worked on Servo Motor and light strip. Sylvia primarily worked on P5Serial Server and websocket to connect mobile interface with the entire device. Both Brian and Sylvia worked on Capacitive sensor (Brian on connecting sensor with light, Sylvia on connecting sensor with P5SerialServer to receive and update date) and music player. 
+
 ## Deliverables
 
 1. Project plan: Big idea, timeline, parts needed, fall-back plan.
@@ -115,40 +137,11 @@ https://user-images.githubusercontent.com/6238480/207659469-239cc20d-6db7-4f57-9
 
 7. Group work distribution questionnaire
 
-## Change of Design
-
-It is fine to change your project goals, but please resubmit the project plan for the new design when you do that.
-
-
-## Teams
-
-You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
 
 ## Examples
 
 [Here is a list of good final projects from previous classes.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects)
 This version of the class is very different, but it may be useful to see these.
-
-# Final Project Idea
-
-In this project, we are exploring the possibilities in re-thinking the way we interact with our loved ones who have passed away.
-
-<img width="1249" alt="Screen Shot 2022-11-15 at 6 14 06 PM" src="https://user-images.githubusercontent.com/6238480/202045905-d6a5bc08-fcc4-403a-9058-a9ede7d3f6c1.png">
-
-## Key objectives
-
-We want to design an interactive device that helps to:
-- Let users interact with each family members’ item, reminisce their lives, and remember intimate moments
-- Educate the younger family members of their family history and heritage
-
-The idea is still in exploratory stage and we are going to experiment many ways in forming the product.
-
-**Possible parts**
-- Cardboard (prototyping)
-- Display screen
-- Proximity sensor (possibly)
-- LED light (possibly)
-- MQTT 😊
 
 **Key risks**
 - Product does not evoke the intended emotions
