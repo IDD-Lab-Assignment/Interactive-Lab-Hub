@@ -53,6 +53,12 @@ All device components and parts we used:
 
 **Connection diagram**
 
+
+**Design Process**
+
+https://user-images.githubusercontent.com/6238480/207650277-f9dd3e6e-032a-484f-aaff-3e01f34996a1.mp4
+
+
 ## Deliverables
 
 1. Project plan: Big idea, timeline, parts needed, fall-back plan.
