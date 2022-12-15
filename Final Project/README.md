@@ -23,6 +23,10 @@ Your project is to design and build an interactive device to suit a specific app
 
 1. Project plan: Big idea, timeline, parts needed, fall-back plan.
 
+The project plan details are shown in the PowerPoint Slide below:
+
+![Project Plan](https://user-images.githubusercontent.com/6238480/207645261-6cedadfb-3a29-4c45-9d6c-b8ec1f9fc2d0.jpg)
+
 2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with.
 
 3. Documentation of design process
