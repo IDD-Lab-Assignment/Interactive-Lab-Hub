@@ -14,15 +14,6 @@ Write-up and documentation due - December 12
 
 ## Objective
 
-The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.
- 
-## Description
-Your project is to design and build an interactive device to suit a specific application of your choosing, and test the interaction with people. 
-
-## Deliverables
-
-1. Project plan: Big idea, timeline, parts needed, fall-back plan.
-
 The project plan details are shown in the PowerPoint Slide below:
 
 ![Project Plan](https://user-images.githubusercontent.com/6238480/207645261-6cedadfb-3a29-4c45-9d6c-b8ec1f9fc2d0.jpg)
@@ -36,6 +27,35 @@ We want to make the memory of the deceased long-lasting, and therefore we design
 The key objectives of our project include:
 - Let users interact with each family members’ item, reminisce their lives, and remember intimate moments
 - Educate the younger family members of their family history and heritage
+ 
+## Description
+Afterlife Garden is an interactive device for educational purpose. The goal is to design on the topic of death to help children understand and better connect to and remember the beloved family members who have passed away.
+
+All device components and parts we used:
+- Physical device
+    - Laser cut cardboard
+    - Hot glue
+    - Acrylic paint
+    - Tree branch
+    - Origami paper
+    - Scissors
+    - Mobile Phone
+- Sensors and electronics
+    - Raspberry Pi
+    - Neopixel light strip
+    - Capacitive sensor
+    - Alligator clips (5)
+    - Copper tape
+    - Servo Control – Micro Servo Motor SG51 and Qwiic Servo Controller
+    - Battery pack (3)
+    - Speaker
+    - Jumper wires
+
+**Connection diagram**
+
+## Deliverables
+
+1. Project plan: Big idea, timeline, parts needed, fall-back plan.
 
 2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with.
 
