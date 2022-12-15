@@ -52,12 +52,38 @@ All device components and parts we used:
     - Jumper wires
 
 **Connection diagram**
-
+![IDD Design](https://github.com/IDD-Lab-Assignment/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/Connection%20Diagram.png)
 
 **Design Process**
 
+- Discussion of the physical form
+   - After deciding on the idea, we ideated our project's physical form. At first, we wanted the final product to look like a family-tree structure. 
+   - We initially came up with the idea to have a tree-like structure and have the device placed on the wall. However we discovered that tabletop arrangement will be easier for children to interact with.
+   - We iterated our design and came up with the final sketch of the device before proceeding to prototype it with the laser-cutting machine
+
+![sketch1](https://user-images.githubusercontent.com/6238480/207646151-e27b3f9f-a426-45e7-be48-2412f4369c8d.jpg)
+![sketch2](https://user-images.githubusercontent.com/6238480/207646122-fea81ab7-a0c0-44a6-95bb-c2168acdd03a.jpg)
+
+- Laser cut the physical interface
+  - We used laser cut to cut out a pond shape, sticked two top layers together to form thickness, and cut out a bendable pattern as the support to connect the top two layers with the bottom one while leaving some empty space in the middle for devices.
+
 https://user-images.githubusercontent.com/6238480/207650277-f9dd3e6e-032a-484f-aaff-3e01f34996a1.mp4
 
+- Test out different parts of sensors
+  - We worked on individual sensors first before putting everything together
+  - Below are the videos showing us testing for light strip, servo motor, and capacitive sensor
+
+**Light Strip**
+
+https://user-images.githubusercontent.com/38329866/207978891-9ed61980-a146-4b77-b785-7cae4719a869.MP4
+
+**Servo Motor**
+
+https://user-images.githubusercontent.com/38329866/207978950-77acad27-3fca-419c-b16d-387d22f852fe.MP4
+
+**Capacitive Sensor**
+
+https://user-images.githubusercontent.com/6238480/207650370-9a129bf0-3f93-4db2-bb25-77c14347b22a.mp4
 
 ## Deliverables
 
