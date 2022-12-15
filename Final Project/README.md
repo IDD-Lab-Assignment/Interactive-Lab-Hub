@@ -27,6 +27,16 @@ The project plan details are shown in the PowerPoint Slide below:
 
 ![Project Plan](https://user-images.githubusercontent.com/6238480/207645261-6cedadfb-3a29-4c45-9d6c-b8ec1f9fc2d0.jpg)
 
+Our initial plan was to design to rethink the topic of death. For example, to build a new way for people to interact with the deceased at the temple or graveyard. However, as we discussed more along the design process, we got inspiration from the movie Coco. 
+
+“He’s been forgotten. When there’s no one left in the living world who remembers you, you disappear from this world. We call it the final death.” 
+
+We want to make the memory of the deceased long-lasting, and therefore we designed our final project - Afterlife Garden. 
+
+The key objectives of our project include:
+- Let users interact with each family members’ item, reminisce their lives, and remember intimate moments
+- Educate the younger family members of their family history and heritage
+
 2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with.
 
 3. Documentation of design process
